@@ -1,0 +1,39 @@
+/* this is the Universal Styling */
+/* *{
+    background-color: coral;
+    color: chartreuse;
+    padding: 0;
+    margin: 0;
+} */
+/* External Styling : When we are creating a separate file for styling is known as External Styling */
+/* Tag Selector */
+/* h1 {
+    color: cyan;
+} */
+/* color : Stand for text color */
+/* p{
+    background-color: blueviolet;
+    color:white;
+    font-size:larger;
+}
+header{
+    font-size:x-large;
+} */
+/* body{
+    /* background-color: brown; */
+    /* color: blue; */
+/* } */ 
+/* Parent Chid Selector */
+/* div header p{
+    color: black;
+}
+div h1{
+    color: cornflowerblue;
+} */
+/* Id Selector */
+#n {
+    color: blue
+}
+.good {
+    color: darkcyan;
+}

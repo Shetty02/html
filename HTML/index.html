@@ -5,12 +5,21 @@
  <!-- In head only few things are comes
     and It is also not shown in the white space.
  -->
+ <style>
+  table,th,td {
+    border: 1px solid black;
+    border-radius: 4px;
+    border-color:black;
+    border-collapse: collapse;
+    padding: 4px;
+  }
+ </style>
  </head>
  <!-- what is tag? <> </> this are tags one is opening tag and another is closing tag -->
    <body>
 <!-- whole white space comes under body tag -->
   <!-- multiline writing by select alt + click where we want to write -->
-  <!--what is Element?  <h1>hEADINg</h1> This Whole thing is a Element.Or we can say the content with both opening and closing tag is known as Element.  -->
+  <!--what is Element?  <h1>hEADINg</h1> An HTML element is defined by a start tag, some content, and an end tag.  -->
  <div>
     <!-- what is div tag? It is known as division tag.It makes the -->
      <h1 align="center">hEADINg</h1>
@@ -22,7 +31,11 @@
  </div>
   <!-- We have 6 Types of headings all are the size where H1 is the bigger size and h6 is the smaller -->
   <!--paragraph tag -->
-  <!-- Attributes: align is an  attribute of p tag. so what is attribute ? Any Functionality we want to add in a tag is an Attribute and we can use Attributes in a Opening Tag Only-->
+  <!-- Attributes: align is an  attribute of p tag. 
+    Q)What is attribute ?
+     Any Functionality we want to add in a tag is an Attribute and we can use Attributes in a Opening Tag Only
+    OR  Adding a new features to a particular tag in that case we use Attributes
+  -->
   <p align="center"> 
     I am Learning HTML
   </p>
@@ -157,9 +170,76 @@ Two types of List
   <img src="https://upload.wikimedia.org/wikipedia/en/b/bd/Doraemon_character.png">
   <!-- <img src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/doremon-deepak-pengoria.jpg" > -->
   <!-- <img src="https://media4.giphy.com/media/dvdcBNbAiNVT9Z0iwP/200w.webp?cid=ecf05e47y717rvggdd0o5982oio0vhmkphav0ckq0f4snlg6&rid=200w.webp&ct=g" > -->
- <img src="https://media0.giphy.com/media
- /xXwMqzlWywmsXd9z7L/200w.webp?cid=ecf05e47b6usz0lm92hqoymqbzco7lrx7iudsy0b8cbdyfsp&rid=200w.webp&ct=g" >
+ <!-- <img src="https://media0.giphy.com/media
+ /xXwMqzlWywmsXd9z7L/200w.webp?cid=ecf05e47b6usz0lm92hqoymqbzco7lrx7iudsy0b8cbdyfsp&rid=200w.webp&ct=g" > -->
  <p>for git purpose</p>
+
+ <form action="" autocomplete="on" target="_blank" method="" >
+  <fieldset>
+    <legend align="center">Nehal Shetty</legend>
+  </p>
+  <label for="">First Name: <sup style="color: red;">*</sup></label>
+  <input type="text" name="First Name" placeholder="First Name" required> 
+  <!-- <br> -->
+    <p>
+      <p>
+
+        <label for="">Last Name: <sup style="color: red;">*</sup></label>
+        <input type="text" name="Last Name" placeholder="Last Name" required> 
+        <!-- <br> -->
+      </p>
+    <label for="">E-Mail Id: <sup style="color: red;">*</sup></label>
+    <input type="email" name="E-Mail Id" placeholder="E-Mail Id" required>
+    <br>
+    <label for="">Gender <sup style="color: red;">*</sup></label>
+    <select >
+      <option value="Male">Male</option>
+      <option value="Female">Female</option>
+      <option value="Other">Other</option>
+    </select> <br>
+    <label for="">Question to Ask:</label>
+    <textarea cols="20" rows="3"></textarea>
+    <br>
+    <label for="">Occupation:</label>
+    <input type="text" list="pro">
+       <datalist id="pro">
+        <option value="Engineering">
+          <option value="Doctor">
+            <option value="CA">
+              <option value="ITI">
+                <option value="Other">
+       </datalist> <br>
+       <!-- <label for="">Chosefiles</label> -->
+       <input type="file"> <br>
+       <input type="date">
+       <input type="range">
+       <input type="color">
+       <input type="password"> <br>
+
+       <input type="radio" >
+       <label for="">FrontEnd</label>
+       <input type="radio" >
+       <label for="">BackEnd</label>
+       <input type="radio">
+       <label for="">Full Stack Web Development</label> <br>
+
+       <input type="radio" id="FrontEnd" name="code" value="FrontEnd">
+       <label for="">FrontEnd</label>
+       <input type="radio" id="BackEnd" name="code" value="BackEnd">
+       <label for="">BackEnd</label>
+       <input type="radio" id="Full Stack Web Development" name="code" value="Full Stack Web Development">
+       <label for="">Full Stack Web Development</label> <br>
+       <input type="checkbox" id="FrontEnd" name="code" value="FrontEnd">
+       <label for="">FrontEnd</label>
+       <input type="checkbox" id="BackEnd" name="code" value="BackEnd">
+       <label for="">BackEnd</label>
+       <input type="checkbox"id="Full Stack Web Development" name="code" value="Full Stack Web Development">
+       <label for="">Full Stack Web Development</label> <br>
+       <button onclick="alert('got alert')">Give an Alert</button>
+    <!-- <input type="submit" value="submit"> -->
+    <button type="submit">Submit</button>
+  </fieldset>
+ </form>
    </body>
 
 </html>
