@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner&family=Hind&family=Noto+Sans+KR:wght@100&display=swap'); */
+*{
+    margin: 0;
+background-color: antiquewhite;
+}
+/* .container{
+    width: 50%;
+    height: 20vh;
+    margin: 10px;
+    background-color: aqua;
+    border-radius: 20px;
+    box-shadow: 12px 12px 15px 10px rgb(142, 135, 135);
+    text-shadow: 4px 2px 4px gray;
+    opacity: 0.3 !important;
+} */
+/* .container h1{
+    border-radius: 20px;
+    margin: 5px;
+    margin-top: 20px;
+ }  */
+#container-1{
+    margin-top: 50px;
+    font-family: 'Edu QLD Beginner', cursive;
+ }
+ .contain h1{
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    height: 50px;
+    width: 40vw;
+    /* background-color: aqua; */
+    background-color: aqua; 
+    border-radius: 15px;
+    color: white;
+    text-shadow: 2px 2px 2px #ff0000;
+    cursor: pointer;
+    user-select: none;
+    box-shadow: 4px 4px 8px #999999;
+     }
+     .contain h1:hover{
+        width: 50vw;
+        color: blue;
+        box-shadow: 0px 0px ;
+        transition: .3s;
+     }

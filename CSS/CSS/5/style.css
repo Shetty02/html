@@ -1,0 +1,17 @@
+.container{
+    height: 50vh;
+    background-color: aqua;
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    justify-content: space-around;
+    /* align-items: center; */
+    align-content: center;
+    text-align: center;
+}
+.container-items{
+    width: 100px;
+    height: 50px;
+    margin: 5px;
+    background-color: pink;
+}
