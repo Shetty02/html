@@ -19,7 +19,7 @@ body{
 .test {
     height: 60vh;
     display: grid;
-    background-image:url(./img/ratan-tata1.jpg);
+    background-image:url(./ratan-tata1.jpg);
     width: 100%;
     background-size: cover;
 }
