@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    background-color: aqua;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+.items {
+    margin: 10px;
+    /* width: 100%; */
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+/* Screen size not exceding 600px i.e the size of screen is less than 600px */
+@media screen and (max-width:600px) {
+    body{
+        background-color: white;
+        font-size: 1.2rem;
+    }
+    @media screen and (max-width:800px) {
+        body{
+            background-color: green;
+        }
+    }
+    .container{
+        flex-direction: column;
+    }
+}
