@@ -9,11 +9,12 @@ body{
 }
 .name{
    text-align: center;
-   margin-top: 5px;
    color: black;
    background-color: antiquewhite;
    font-family: 'Times New Roman', Times, serif;
    /* border-radius: 15px; */
+   /* padding: 25px; */
+   font-size: 1rem;
 }
 .test {
     height: 60vh;
@@ -26,47 +27,44 @@ body{
     height: 50vh;
     display: grid;
     grid-template-columns: auto auto auto  auto;
+    grid-template-rows: auto auto;
     column-gap: 10px;
     row-gap: 10px;
     align-items: center;
- 
-    /* grid-template-rows:repeat(3,30px); */
     justify-content:space-around;
     background-color: white;
 
 }
 .container-head {
-    height: 50px;
+    height: 80px;
     width: 100%;
-    /* margin: 10px; */
     background-color: black;
-    border-radius: 10px;
+    border-radius: 25px;
 }
 .header{
     grid-column: 1/5;
     text-align: center;
-    align-content: center;
     color: white;
+    font-size: 2rem;
+    height: 55px;
 }
 .footer{
     grid-column: 1/5;
-    display: flex;
+     display: flex;
      flex-flow: column wrap;
-     column-gap: 10px;
-   
-    /* text-align: center; */
-    align-content: center;
+     align-content: center;
     justify-content: center;
-    /* color: white; */
+    height: 60px;
 }
 .footer img{
     width:100%;
-    height: 40px;
-    /* background: black; */
+    height: 50px;
 }
 .container-head p {
     text-align: center;
     align-self: center;
     color: white;
     font-family: 'Times New Roman', Times, serif;
+    padding: 12px;
+    font-size:1.2rem;
 }
